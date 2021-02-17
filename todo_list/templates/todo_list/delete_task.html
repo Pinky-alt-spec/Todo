@@ -1,4 +1,8 @@
  <style>
+      body{
+        background-color: #b3933d;
+     }
+  
      .center-column{
         width:600px;
         margin: 20px auto;
@@ -18,6 +22,6 @@
 
     <form method="POST" action="">
         {% csrf_token %}
-        <input type="submit" name="Confirm">
+        <input class="btn btn-info" type="submit" name="Confirm">
     </form>
 <div>
