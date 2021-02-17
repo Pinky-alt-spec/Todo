@@ -26,14 +26,14 @@
 
 
 <div class="center-column">
+  <h3 style="text-align:center">Delete Task</h3>
     <p>Are you sure you want to delete "{{item}}"?</p>
 
-    <a href="{% url 'list' %}">Do Not Delete</a>
-      <h3 style="margin-left:70px">Delete Task</h3>
+   <a href="{% url 'list' %}">Do Not Delete</a>
       <div class="item-row">
        <form method="POST" action="">
            {% csrf_token %}
-           <input style="margin-left:70px" class="btn btn-info" type="submit" name="Confirm">
+           <input style="margin-left:150px" class="btn btn-info" type="submit" name="Confirm">
        </form>
  </div>
 <div>
