@@ -26,7 +26,7 @@ SECRET_KEY = 'j4+o)sb+-r&rm7+a1@cg)nc(nzvhv%4uiiw$h#pm65v&4o58wl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pinks-todos.herokuapp.com', 'www.everydaytodo.ml', 'everydaytodo.ml']
+ALLOWED_HOSTS = ['127.0.0.1', 'pinks-todos.herokuapp.com', 'www.everydaytodo.ml', 'everydaytodo.ml', "*"]
 
 
 # Application definition
@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 
